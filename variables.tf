@@ -8,13 +8,13 @@
 
 variable "subscription_id_management" {
   type        = string
-  default     = ""
+  default     = "47f36dd9-76ae-4fb7-80aa-adb7a38b3131"
   description = "Sets the Subscription ID to use for Management resources."
 }
 
 variable "subscription_id_connectivity" {
   type        = string
-  default     = ""
+  default     = "47f36dd9-76ae-4fb7-80aa-adb7a38b3131"
   description = "Sets the Subscription ID to use for Connectivity resources."
 }
 
@@ -32,7 +32,7 @@ variable "root_name" {
 
 variable "default_location" {
   type        = string
-  default     = "eastus"
+  default     = "japaneast"
   description = "Sets the default location for resources, including references to location within Policy templates."
 }
 
@@ -68,6 +68,6 @@ variable "deploy_connectivity_resources" {
 
 variable "security_contact_email_address" {
   type        = string
-  default     = "security.contact@replace_me"
+  default     = "cuong.dq@csc-jsc.com"
   description = "Sets the security contact email address used when configuring Azure Security Center."
 }
